@@ -3,6 +3,7 @@ package com.gridnine.testing;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class FlightFilterTimeOnEarthLessThanTwoHours implements FlightFilter {
 
@@ -12,7 +13,7 @@ public class FlightFilterTimeOnEarthLessThanTwoHours implements FlightFilter {
         return flights
                 .stream()
                 .filter(flight -> checkTimeOnEarth(flight.getSegments()))
-                .toList();
+                .collect(Collectors.toList());
     }
 
     private boolean checkTimeOnEarth(List<Segment> segments) {
