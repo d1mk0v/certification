@@ -1,4 +1,4 @@
-package com.gridnine.testing;
+package com.gridnine.testing.filter;
 
 import com.gridnine.testing.filter.inter.FlightFilter;
 import com.gridnine.testing.model.Flight;
@@ -10,8 +10,6 @@ import java.util.List;
  * Класс, предоставляющий фабрику для фильтрации перелетов с использованием заданных фильтров.
  */
 public class FlightFilterFabric {
-
-
     private final List<FlightFilter> filters; //Список фильтров
 
     /**

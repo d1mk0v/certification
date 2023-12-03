@@ -1,5 +1,6 @@
 package com.gridnine.testing;
 
+import com.gridnine.testing.filter.FlightFilterFabric;
 import com.gridnine.testing.filter.inter.FlightFilter;
 import com.gridnine.testing.filter.impl.FlightFilterDepartingBeforeArrives;
 import com.gridnine.testing.filter.impl.FlightFilterDepartingInPast;
@@ -33,7 +34,7 @@ public class Main {
         System.out.println();
 
         // Фильтрация по второму правилу и вывод результата
-        FlightFilter filter2 = (FlightFilter) new FlightFilterDepartingInPast();
+        FlightFilter filter2 = new FlightFilterDepartingInPast();
         filter2.filter(flightList).forEach(System.out::println);
         System.out.println();
 
