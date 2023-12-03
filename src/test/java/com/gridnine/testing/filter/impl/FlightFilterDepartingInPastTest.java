@@ -11,11 +11,17 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Класс для тестирования фильтра FlightFilterDepartingInPast.
+ */
 class FlightFilterDepartingInPastTest {
 
+    /**
+     * Проверяет правильность данных о времени вылета.
+     */
     @DisplayName("Check correct depart")
     @Test
-    void filterShouldReturnCorrectSegment() {
+    void filterShouldReturnCorrectSegmentTest() {
         Segment correctSegment1 = new Segment(LocalDateTime.now().plusHours(1), LocalDateTime.now().plusDays(1));
         List<Segment> segmentList = new ArrayList<>();
         segmentList.add(correctSegment1);
@@ -25,9 +31,12 @@ class FlightFilterDepartingInPastTest {
         assertFalse(flightList.isEmpty());
     }
 
+    /**
+     * Проверяет данные о вылете в прошлом.
+     */
     @DisplayName("Check depart in the past")
     @Test
-    void filterShouldReturnNull() {
+    void filterShouldReturnNullTest() {
         Segment incorrectSegment1 = new Segment(LocalDateTime.now().minusDays(3), LocalDateTime.now());
         List<Segment> segmentList = new ArrayList<>(List.of(incorrectSegment1));
         Flight flight = new Flight(segmentList);
