@@ -28,7 +28,7 @@ public class Segment {
     @Override
     public String toString() {
         DateTimeFormatter fmt =
-                DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
+                DateTimeFormatter.ofPattern("yyyy-MM-dd 'T:'HH:mm");
         return '[' + departureDate.format(fmt) + '|' + arrivalDate.format(fmt)
                 + ']';
     }

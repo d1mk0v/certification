@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ef3df3-0da0-4e7e-928a-47abee92958b" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterDepartingBeforeArrives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterDepartingBeforeArrives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterDepartingInPast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterDepartingInPast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterTimeOnEarthLessThanTwoHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterTimeOnEarthLessThanTwoHours.java" afterDir="false" />
+    <list default="true" id="e1ef3df3-0da0-4e7e-928a-47abee92958b" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/FlightFilterDepartingBeforeArrivesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/FlightFilterDepartingInPastTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/FlightFilterTimeOnEarthLessThanTwoHoursTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Segment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,6 +39,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,7 +48,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gridnine.testing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FlightFilterTimeOnEarthLessThanTwoHoursTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.Main" />
       <module name="testing" />
@@ -56,8 +70,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FlightFilterDepartingBeforeArrivesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gridnine.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gridnine.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.FlightFilterDepartingBeforeArrivesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightFilterDepartingInPastTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gridnine.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gridnine.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.FlightFilterDepartingInPastTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightFilterTimeOnEarthLessThanTwoHoursTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gridnine.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gridnine.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.FlightFilterTimeOnEarthLessThanTwoHoursTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightFilterTimeOnEarthLessThanTwoHoursTest" />
+        <item itemvalue="JUnit.FlightFilterDepartingInPastTest" />
+        <item itemvalue="JUnit.FlightFilterDepartingBeforeArrivesTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -70,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701529625531</updated>
-      <workItem from="1701529627408" duration="3718000" />
+      <workItem from="1701529627408" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -80,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701532897005</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <option name="closed" value="true" />
+      <created>1701533549275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701533549275</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>
