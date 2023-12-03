@@ -1,5 +1,7 @@
-package com.gridnine.testing;
+package com.gridnine.testing.filter.impl;
 
+import com.gridnine.testing.model.Flight;
+import com.gridnine.testing.model.Segment;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

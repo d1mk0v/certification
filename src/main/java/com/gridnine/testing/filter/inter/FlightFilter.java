@@ -1,4 +1,6 @@
-package com.gridnine.testing;
+package com.gridnine.testing.filter.inter;
+
+import com.gridnine.testing.model.Flight;
 
 import java.util.List;
 

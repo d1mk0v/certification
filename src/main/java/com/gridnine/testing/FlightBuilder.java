@@ -1,14 +1,22 @@
 package com.gridnine.testing;
 
+import com.gridnine.testing.model.Flight;
+import com.gridnine.testing.model.Segment;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * Factory class to get sample list of flights.
+ * Класс, который создает тестовые образцы перелетов.
  */
 class FlightBuilder {
+
+    /**
+     * Создает тестовые образцы перелетов.
+     * @return список перелетов
+     */
     static List<Flight> createFlights() {
         LocalDateTime threeDaysFromNow = LocalDateTime.now().plusDays(3);
         return Arrays.asList(
@@ -30,6 +38,12 @@ class FlightBuilder {
                         threeDaysFromNow.plusHours(6), threeDaysFromNow.plusHours(7)));
     }
 
+    /**
+     * Создает перелет на основе переданных дат.
+     * @param dates даты и время для создания сегментов
+     * @return созданный перелет
+     * @throws IllegalArgumentException если передано нечетное количество дат
+     */
     private static Flight createFlight(final LocalDateTime... dates) {
         if ((dates.length % 2) != 0) {
             throw new IllegalArgumentException(

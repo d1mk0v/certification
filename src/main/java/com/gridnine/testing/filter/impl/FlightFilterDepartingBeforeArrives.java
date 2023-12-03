@@ -1,4 +1,8 @@
-package com.gridnine.testing;
+package com.gridnine.testing.filter.impl;
+
+import com.gridnine.testing.model.Flight;
+import com.gridnine.testing.model.Segment;
+import com.gridnine.testing.filter.inter.FlightFilter;
 
 import java.util.List;
 import java.util.stream.Collectors;
