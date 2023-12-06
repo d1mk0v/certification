@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ef3df3-0da0-4e7e-928a-47abee92958b" name="Changes" comment="tests">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/model/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/inter/FlightFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterDepartingBeforeArrives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/impl/FlightFilterDepartingBeforeArrives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterDepartingInPast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/impl/FlightFilterDepartingInPast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterFabric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/FlightFilterTimeOnEarthLessThanTwoHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/impl/FlightFilterTimeOnEarthLessThanTwoHours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/model/Segment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/FlightFilterDepartingBeforeArrivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/impl/FlightFilterDepartingBeforeArrivesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/FlightFilterDepartingInPastTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/impl/FlightFilterDepartingInPastTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/FlightFilterTimeOnEarthLessThanTwoHoursTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/impl/FlightFilterTimeOnEarthLessThanTwoHoursTest.java" afterDir="false" />
+    <list default="true" id="e1ef3df3-0da0-4e7e-928a-47abee92958b" name="Changes" comment="done">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/impl/FlightFilterDepartingBeforeArrivesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/impl/FlightFilterDepartingBeforeArrivesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2YzXwwMXj3tybphWitYhFQQ1n1t" />
@@ -62,13 +54,14 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gridnine.testing.filter" />
       <recent name="com.gridnine.testing.filter.impl" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.gridnine.testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.FlightFilterTimeOnEarthLessThanTwoHoursTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.Main" />
       <module name="testing" />
@@ -129,10 +122,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FlightFilterTimeOnEarthLessThanTwoHoursTest" />
         <item itemvalue="JUnit.FlightFilterDepartingInPastTest" />
         <item itemvalue="JUnit.FlightFilterDepartingBeforeArrivesTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701529625531</updated>
-      <workItem from="1701529627408" duration="6568000" />
+      <workItem from="1701529627408" duration="8522000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -170,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701585235013</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JavaDoc">
+      <option name="closed" value="true" />
+      <created>1701586997701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701586997701</updated>
+    </task>
+    <task id="LOCAL-00005" summary="done">
+      <option name="closed" value="true" />
+      <created>1701587570605</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701587570605</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +189,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="JavaDoc" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
